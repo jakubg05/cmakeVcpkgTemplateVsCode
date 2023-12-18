@@ -19,8 +19,10 @@ $ ./vcpkg/bootstrap-vcpkg.sh
 # navigate to the root folder:
 $ cd ..
 $ make prepare
+
 # go to the build directory
 $ cd build
+
 $ cmake ..
 $ cmake --build .
 

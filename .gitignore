@@ -1,1 +1,113 @@
-/build/
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# CMake related files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# CMake build directory
+build/
+
+# If you're using vcpkg (uncomment the line below)
+#vcpkg_installed/
+
+# Exclude Visual Studio Code project settings
+.vscode/
+
+# Exclude user-specific files for CLion (JetBrains IDE)
+.idea/
+
+# Exclude user-specific files for Visual Studio
+.vs/
+
+# Exclude user-specific files for Xcode (macOS)
+*.xcuserstate
+project.xcworkspace
+xcuserdata/
+
+# Node modules (if using Node.js in your project)
+node_modules/
+
+# Python virtual environments
+venv/
+*.pyc
+
+# macOS specific files
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

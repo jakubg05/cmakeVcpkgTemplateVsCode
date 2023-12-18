@@ -47,13 +47,12 @@ dkms.conf
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 
 # CMake build directory
 build/
 
 # If you're using vcpkg (uncomment the line below)
-#vcpkg_installed/
+vcpkg_installed/
 
 # Exclude Visual Studio Code project settings
 .vscode/

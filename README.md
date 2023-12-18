@@ -1,6 +1,17 @@
-# SETUP
+# CMAKE VCPKG OPENGL template
+* this is a template project to get you started 
+  writing an OpenGL project without the hassle of
+  having to set up the dependencies from scrach
 
-## UNIX (ubuntu)
+**By default, the template project comes with the following libraries:**
+* glfw3 - latest version
+* glew  - latest version
+* glm   - latest version
+
+
+## SETUP
+
+### UNIX (ubuntu)
 Required dependencies:
 
 ```

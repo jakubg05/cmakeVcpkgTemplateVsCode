@@ -4,10 +4,13 @@ set(CMAKE_TOOLCHAIN_FILE "../external/vcpkg/scripts/buildsystems/vcpkg.cmake" CA
 
 project(cmaketemplate VERSION 1.0.0 LANGUAGES C CXX)
 
+
+# indin he dependencies (should be installed by vcpkg in he vcpkg/packages folder)
 find_package(GLEW REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 
-add_subdirectory(lib)
+# adding other CMakeLiss.txt files in oher directories
+add_subdirectory(lib/my_lib)
 add_subdirectory(app)
 

@@ -4,5 +4,4 @@
 #!/bin/bash
 rm -rf build
 mkdir build
-cd build
 echo Build folder set up completed

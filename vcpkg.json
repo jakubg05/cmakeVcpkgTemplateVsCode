@@ -1,8 +1,10 @@
 {
-    "dependencies": [
-      "glew",
-      "glfw3",
-      "glm"
-    ]
+  "name": "cmaketemplate",
+  "version": "1.0.0",
+  "builtin-baseline": "62a471f00693d138ad597ffa6bb2802d1c18e469",
+  "dependencies": [
+    "glew",
+    "glfw3",
+    "glm"
+  ]
 }
-

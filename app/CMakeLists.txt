@@ -6,4 +6,5 @@ target_link_libraries(App PRIVATE
     GLEW::GLEW
     glfw
     glm::glm
+    imgui::imgui
 )

@@ -5,6 +5,7 @@ This template project is designed to **simplify the process of starting a new Op
 * glfw3 - latest version
 * glew  - latest version
 * glm   - latest version
+* imgui - docking
 
 ## Getting Started
 

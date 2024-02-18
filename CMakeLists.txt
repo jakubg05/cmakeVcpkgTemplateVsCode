@@ -5,12 +5,14 @@ set(CMAKE_TOOLCHAIN_FILE "${CMAKE_SOURCE_DIR}/external/vcpkg/scripts/buildsystem
 project(cmaketemplate VERSION 1.0.0 LANGUAGES C CXX)
 
 
-# indin he dependencies (should be installed by vcpkg in he vcpkg/packages folder)
+# including the dependencies (should be installed by vcpkg in he vcpkg/packages folder)
 find_package(GLEW REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
+find_package(imgui CONFIG REQUIRED)
 
-# adding other CMakeLiss.txt files in oher directories
+
+# adding other CMakeLists.txt files in other directories
 add_subdirectory(Core)
 add_subdirectory(App)
 

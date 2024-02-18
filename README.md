@@ -37,58 +37,30 @@ Proceed with the setup instructions for your operating system in the [Setup Inst
 
 ## Prerequisites
 
-* **Operating System**: Linux (Ubuntu recommended) or Windows.
-* **IDE**: Visual Studio Code or Visual Studio (setup tailored for these IDEs).
+* **Operating System**:  Windows.
+* **IDE**: Visual Studio Code
 * **Required Tools**: CMake, Git.
 * **VS Code Extensions**: CMake, CMake Tools (if using VS Code).
 
 
-### UNIX (ubuntu)
-
-```
-# Install required dependencies
-sudo apt-get install pkg-config 
-
-# Navigate to the external folder
-cd external
-
-# Clone vcpkg and bootstrap
-git clone https://github.com/microsoft/vcpkg
-./vcpkg/bootstrap-vcpkg.sh
-
-# Navigate back to the root folder and run the preparation script
-cd ..
-./prepare.sh
-
-# Build the project (make sure you are in the build directory)
-cmake ..
-cmake --build .
-
-# Run the executable
-./app/application.exe
-```
-
-### Windows
-
 ```
 # Navigate to the external folder
 cd external
 
 # Clone vcpkg and bootstrap
 git clone https://github.com/microsoft/vcpkg
-./vcpkg/bootstrap-vcpkg.bat
+.\vcpkg\bootstrap-vcpkg.bat
 
-# Navigate back to the root folder and run the preparation script
+# Navigate back to the root folder and run the build script
 cd ..
-prepare.bat
-
-# Build the project (make sure you are in the build directory)
-cmake ..
-cmake --build .
-
-# Run the executable
-./app/debug/application.exe
+build.bat -r
 ```
 
+This will create a build directory (if it doesn't exist), navigate into it, and run CMake to configure the project. If the -r flag is not provided, the script will only run CMake if the project has not been configured yet.
 
+After the script finishes, you'll find the built executable in the app\Debug directory within the build directory.
+
+```
+build\app\Debug\App.exe
+```
 
